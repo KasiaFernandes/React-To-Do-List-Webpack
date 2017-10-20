@@ -25,7 +25,7 @@ if (env === 'production') {
 
 //webpack.config.js
 module.exports = {
-    entry: './src/containers/App.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'app.bundle.js'
@@ -49,5 +49,6 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    plugins
 };

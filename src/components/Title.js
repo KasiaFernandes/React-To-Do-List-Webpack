@@ -1,19 +1,20 @@
 import React from 'react';
 
-class Title extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-
-        }
-    }
-
-    render() {
-        return (
-            <div>
-                <h1>This is your to do list</h1>
-                <h4>Items to do: ${this.state.data.length}</h4>
-            </div>
-        )
-    }
+const Title = props => {
+    return (
+        <div>
+            <h1>{props.title}</h1>
+            <h4>Items to complete: {props.number}</h4>
+        </div>
+    )
 }
+
+export default Title;
+
+// Question: is there a need for 'class Title extends...' here?
+// Question: Does every component file need a separate css file? 
+
+
+
+
+
