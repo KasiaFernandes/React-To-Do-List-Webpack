@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './Title.css';
 
 const Title = props => {
     return (
-        <div>
+        <div className={style.Title}>
             <h1>{props.title}</h1>
             <h4>Items to complete: {props.number}</h4>
         </div>
