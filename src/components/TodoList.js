@@ -2,7 +2,6 @@ import React from 'react';
 import Todo from './Todo.js';
 import style from './TodoList.css';
 
-
 const TodoList = ({ items, remove }) => {
 
     const listItems = items.map((item) => {
