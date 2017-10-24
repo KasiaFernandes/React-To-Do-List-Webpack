@@ -1,0 +1,10 @@
+
+.TodoForm input, .TodoForm button {
+    border: 1px solid green;
+    height: 20px;
+}
+
+.TodoForm button {
+    height: 24px;
+    text-transform: uppercase;
+}

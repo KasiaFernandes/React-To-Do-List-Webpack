@@ -17,5 +17,15 @@ export default Title;
 
 
 
+/*
+const Title = ({title, number}) => {
+    return (
+        <div className={style.Title}>
+            <h1>{title}</h1>
+            <h4>Items to complete: {number}</h4>
+        </div>
+    )
+}
 
-
+export default Title;
+*/
